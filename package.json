@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple **URL Shortener** built using **Node.js**, **HTML**, and **CSS**.  \r This project allows users to shorten long URLs into easy-to-share short codes and stores them locally in a `links.json` file.",
   "main": "app.js",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev":"nodemon app.js"
