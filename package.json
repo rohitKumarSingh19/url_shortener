@@ -1,0 +1,24 @@
+{
+  "name": "url_shortener",
+  "version": "1.0.0",
+  "description": "A simple **URL Shortener** built using **Node.js**, **HTML**, and **CSS**.  \r This project allows users to shorten long URLs into easy-to-share short codes and stores them locally in a `links.json` file.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitKumarSingh19/url_shortener.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitKumarSingh19/url_shortener/issues"
+  },
+  "homepage": "https://github.com/rohitKumarSingh19/url_shortener#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
